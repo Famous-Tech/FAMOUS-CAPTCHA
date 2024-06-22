@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMOUS__CAPTCHA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FAMOUS__CAPTCHA</h1>
+        <p>Ce service vous est offert par FAMOUS-TECH © • HUMAIN VÉRIFICATION •</p>
+        <div class="captcha-box">
+            <p>Résolvez le puzzle visuel ci-dessous :</p>
+            <div id="captcha-image"></div>
+            <input type="text" id="captcha-input" placeholder="Entrez le texte ci-dessus" required>
+            <button onclick="validateCaptcha()">Valider</button>
+            <p id="result-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
