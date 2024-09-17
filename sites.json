@@ -1,0 +1,12 @@
+[
+    {
+        "url": "https://site1.com",
+        "plan": "free",
+        "subscriptionEnd": "2023-10-01"
+    },
+    {
+        "url": "https://site2.com",
+        "plan": "premium",
+        "subscriptionEnd": "2024-10-01"
+    }
+]
